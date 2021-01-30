@@ -13,11 +13,11 @@ body{
 }
 
 section.project {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 section>.text {
-  margin: 60px auto;
+  margin: 60px auto 30px;
   max-width: 555px;
   text-align: center;
 }
@@ -61,7 +61,7 @@ section.project .text p {
 .cards{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-  padding: 20px;
+  padding: 40px 100px;
   grid-gap: 40px;
 }
 .card{
@@ -115,7 +115,7 @@ img{
 .details>h3{
   color: #ffffff;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   margin: 10px 0 15px 0;
 }
 .details>p{
