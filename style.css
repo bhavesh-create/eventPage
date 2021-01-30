@@ -17,7 +17,7 @@ section.project {
 }
 
 section>.text {
-  margin: 60px auto 30px;
+  margin: 60px auto;
   max-width: 555px;
   text-align: center;
 }
@@ -52,6 +52,14 @@ section.project .text h4 {
 
 section.project .text p {
   color: #b0bec5;
+}
+
+hr{
+  height: 1px;
+  opacity: 60%;
+  border-width:0;
+  color:#b0bec5;
+  background-color: #b0bec5
 }
 
 
